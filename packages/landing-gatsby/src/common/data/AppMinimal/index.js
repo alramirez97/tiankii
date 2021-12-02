@@ -13,33 +13,28 @@
 
 export const MENU_ITEMS = [
   {
-    label: 'Home',
+    label: 'About Us',
     path: '#banner_section',
     offset: '70',
   },
   {
-    label: 'Feature',
+    label: 'Soluciones',
     path: '#feature_section',
     offset: '70',
   },
   {
-    label: 'Service',
+    label: 'Tecnología',
     path: '#service_section',
     offset: '70',
   },
   {
-    label: 'Dashboard',
+    label: 'Paquetes/Servicios',
     path: '#dashboard_section',
     offset: '70',
   },
   {
-    label: 'Pricing',
+    label: 'Contacto',
     path: '#pricing_section',
-    offset: '70',
-  },
-  {
-    label: 'Blog',
-    path: '#blog_section',
     offset: '70',
   },
 ];

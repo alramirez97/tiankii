@@ -1,44 +1,39 @@
 {
   "MENU_ITEMS": [
     {
-      "label": "Home",
+      "label": "About Us",
       "path": "#banner_section",
       "offset": "70"
     },
     {
-      "label": "Feature",
+      "label": "Soluciones",
       "path": "#feature_section",
       "offset": "70"
     },
     {
-      "label": "Service",
+      "label": "Tecnología",
       "path": "#service_section",
       "offset": "70"
     },
     {
-      "label": "Dashboard",
+      "label": "Paquetes/Servicios",
       "path": "#dashboard_section",
       "offset": "70"
     },
     {
-      "label": "Pricing",
+      "label": "Contacto",
       "path": "#pricing_section",
-      "offset": "70"
-    },
-    {
-      "label": "Blog",
-      "path": "#blog_section",
       "offset": "70"
     }
   ],
   "BannerData": {
-    "image": "../../assets/image/app-minimal/banner-moc-1-1.png",
-    "title": "Only trusted wallet apps that make your day beautiful",
-    "text": "There will be a day–in our lifetime–when we get to celebrate every person on the planet having access. Moment Pro is the best software platform to collect reviews.",
-    "tagline": "*No Credit card required",
+    "image": "../../assets/image/app-minimal/server.png",
+    "title": "Rethink Bitcoin Payments",
+    "text": "",
+    "tagline": "",
     "button": {
       "link": "#",
-      "label": "Try it for free"
+      "label": "Solicitar demo"
     }
   },
   "keyFeatures": {

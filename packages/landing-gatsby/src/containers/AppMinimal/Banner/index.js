@@ -8,6 +8,7 @@ import Text from 'common/components/Text';
 import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
 import BannerArea, { Col } from './banner.style';
+// import server from '../../../common/assets/image/app-minimal/server.png'
 
 const Banner = () => {
   const Data = useStaticQuery(graphql`
@@ -39,6 +40,7 @@ const Banner = () => {
 
   return (
     <BannerArea id="banner_section">
+      
       <GatsbyImage
         src={
           (image !== null) | undefined
@@ -60,6 +62,9 @@ const Banner = () => {
             <Text as="span" content={tagline} />
           </Box>
         </Col>
+        {/* <Col>
+          <img className='imgBanner1' src={server} />
+        </Col> */}
       </Container>
     </BannerArea>
   );
