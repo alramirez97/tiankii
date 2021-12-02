@@ -48,9 +48,7 @@ const AppMinimal = () => {
           <ContentWrapper>
             <Banner />
             <ChooseUs />
-            <KeyFeatures />
-            <KeyFeatures />
-            
+            <KeyFeatures />            
             <Features />
             <WalletExperience />
             <SecureTransaction />

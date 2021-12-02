@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.section`
+background-color: #eeedf2;
   padding: 75px 0 120px;
   overflow: hidden;
 `;

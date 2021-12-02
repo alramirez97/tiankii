@@ -6,7 +6,7 @@ const SectionWrapper = styled.section`
 h2 {
 
 font-family: Exo;
-font-size: 60px;
+font-size: 80px;
 font-weight: 700;
 font-stretch: normal;
 font-style: normal;
@@ -16,6 +16,7 @@ text-align: left;
 color: #fff;
 }
 p {
+  font-family: Exo;
   color: #FFF;
   font-size: 22px;
   line-height: 1.92;
