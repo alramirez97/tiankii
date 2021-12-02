@@ -7,7 +7,8 @@ import Heading from 'common/components/Heading';
 import Text from 'common/components/Text';
 import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
-import BannerArea, { Col } from './banner.style';
+import BannerArea, { Col, Imagen }  from './banner.style';
+import server from '../../../common/assets/image/app-minimal/server.png'
 
 const Banner = () => {
   const Data = useStaticQuery(graphql`
@@ -39,15 +40,8 @@ const Banner = () => {
 
   return (
     <BannerArea id="banner_section">
-      <GatsbyImage
-        src={
-          (image !== null) | undefined
-            ? image.childImageSharp.gatsbyImageData
-            : {}
-        }
-        className="bannerMoc"
-        alt="banner image"
-      />
+
+      
       <Container className="Container">
         <Col>
           <Heading as="h2" content={title} />
@@ -59,6 +53,10 @@ const Banner = () => {
             </Link>
             <Text as="span" content={tagline} />
           </Box>
+        </Col>
+        <Col>
+          
+          <img src={server} />
         </Col>
       </Container>
     </BannerArea>

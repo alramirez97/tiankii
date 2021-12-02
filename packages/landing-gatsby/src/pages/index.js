@@ -47,8 +47,10 @@ const AppMinimal = () => {
           </Sticky>
           <ContentWrapper>
             <Banner />
-            <KeyFeatures />
             <ChooseUs />
+            <KeyFeatures />
+            <KeyFeatures />
+            
             <Features />
             <WalletExperience />
             <SecureTransaction />
