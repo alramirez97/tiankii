@@ -1,56 +1,73 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import Sticky from 'react-stickynode';
-import { theme } from 'common/theme/saasMinimal2';
-import { ResetCSS } from 'common/assets/css/style';
-import {
-  GlobalStyle,
-  ContentWrapper,
-} from 'containers/SaasMinimal2/saasMinimal2.style';
-
+import { theme } from 'common/theme/appminimal';
 import { DrawerProvider } from 'common/contexts/DrawerContext';
-import Navbar from 'containers/SaasMinimal2/Navbar';
-import Banner from 'containers/SaasMinimal2/Banner';
-import Features from 'containers/SaasMinimal2/Features';
-import TrackAudience from 'containers/SaasMinimal2/TrackAudience';
-import Pricing from 'containers/SaasMinimal2/Pricing';
-import Clients from 'containers/SaasMinimal2/Clients';
-import Statistics from 'containers/SaasMinimal2/Statistics';
-import AdvancedAnalytics from 'containers/SaasMinimal2/AdvancedAnalytics';
-import Dashboard from 'containers/SaasMinimal2/Dashboard';
-import Testimonial from 'containers/SaasMinimal2/Testimonial';
-import Subscription from 'containers/SaasMinimal2/Subscription';
-import Footer from 'containers/SaasMinimal2/Footer';
+import { ResetCSS } from 'common/assets/css/style';
+import Sticky from 'react-stickynode';
+import Navbar from 'containers/AppMinimal/Navbar';
+import Banner from 'containers/AppMinimal/Banner';
+import KeyFeatures from 'containers/AppMinimal/KeyFeatures';
+import ChooseUs from 'containers/AppMinimal/ChooseUs';
+import Features from 'containers/AppMinimal/Features';
+import WalletExperience from 'containers/AppMinimal/WalletExperience';
+import SecureTransaction from 'containers/AppMinimal/SecureTransaction';
+import WalletDashboard from 'containers/AppMinimal/WalletDashboard';
+import Track from 'containers/AppMinimal/Track';
+import Gallery from 'containers/AppMinimal/Gallery';
+import Counter from 'containers/AppMinimal/Counter';
+import Pricing from 'containers/AppMinimal/Pricing';
+import Blog from 'containers/AppMinimal/Blog';
+import CallToAction from 'containers/AppMinimal/CallToAction';
+import Footer from 'containers/AppMinimal/Footer';
 import Seo from 'components/seo';
 
-const SaasMinimal2 = () => {
+import GlobalStyle, {
+  AppWrapper,
+  ContentWrapper,
+  GradientWrapper,
+} from 'containers/AppMinimal/app-minimal.style';
+
+const AppMinimal = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Fragment>
-        <Seo title="SaaS Minimal 2 | A react Gatsby landing page" />
+      <>
+        <Seo title="App Minimal | A react Gatsby landing page" />
+        {/* end of head */}
 
         <ResetCSS />
         <GlobalStyle />
-        <ContentWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="is-sticky">
+        {/* end of global and reset style */}
+
+        {/* start app minimal landing */}
+        <AppWrapper>
+          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
           </Sticky>
-          <Banner />
-          <Features />
-          <TrackAudience />
-          <Pricing />
-          <Clients />
-          <Statistics />
-          <AdvancedAnalytics />
-          <Dashboard />
-          <Testimonial />
-          <Subscription />
-          <Footer />
-        </ContentWrapper>
-      </Fragment>
+          <ContentWrapper>
+            <Banner />
+            <KeyFeatures />
+            <ChooseUs />
+            <Features />
+            <WalletExperience />
+            <SecureTransaction />
+            <WalletDashboard />
+            <Track />
+          </ContentWrapper>
+          <GradientWrapper>
+            <Gallery />
+            <Counter />
+            <Pricing />
+            <Blog />
+            <CallToAction />
+            <Footer />
+          </GradientWrapper>
+        </AppWrapper>
+        {/* end of app minimal landing */}
+      </>
     </ThemeProvider>
   );
 };
-export default SaasMinimal2;
+export default AppMinimal;
+
