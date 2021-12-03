@@ -47,33 +47,33 @@
     "features": [
       {
         "id": 1,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-1.svg",
-        "title": "Analytics Report",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/shop.svg",
+        "title": "Retail / Comercios",
+        "description": "Acepte pagos Bitcoin en todos sus puntos de ventas, sucursales de supermercados, tiendas, ferreterías, almacenes o salas de ventas y monitoree en tiempo real sus ingresos."
       },
       {
         "id": 2,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-2.svg",
-        "title": "User Customization",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/accepted.svg",
+        "title": "E-commerce",
+        "description": "Agregue a su sitio web o a su e-commerce la opción para aceptar pagos Bitcoin de forma segura y directamente vinculado a su wallet empresarial."
       },
       {
         "id": 3,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-3.svg",
-        "title": "Help & Support",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/smartphone.svg",
+        "title": "Venta móvil",
+        "description": "Colecte pagos de forma fácil en cualquier lugar! Equipe a sus empleados con un POS Bitcoin para que reciban pagos en sus rutas o en el domicilio del cliente."
       },
       {
         "id": 4,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-4.svg",
-        "title": "Use Accessibility",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/global.svg",
+        "title": "Restaurantes",
+        "description": "Con Tiankii su restaurante, su café, su cafeteria, franquicia, etc estará lista para Aceptar Pagos Bitcoin y Chivo los cuales puede monitorear remotamente."
       },
       {
         "id": 5,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-4.svg",
-        "title": "Use Accessibility",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/bitcoin.svg",
+        "title": "Redes Sociales",
+        "description": "Vender por Redes Sociales con Bitcoin nunca había sido tan fácil!, Cree Facturas, Enlaces o botones de pago y envíe a sus clientes estos enlaces por Messenger, email, Whatsapp, etc."
       }
     ]
   },
@@ -137,39 +137,21 @@
     "items": [
       {
         "id": 1,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-1.svg",
-        "title": "Analytics Business",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/qr.png",
+        "title": "Crea QR’s",
+        "description": "Vender por Redes Sociales con Bitcoin nunca había sido tan fácil!, Cree Facturas, Enlaces o botones de pago y envíe a sus clientes estos enlaces por Messenger, email, Whatsapp, etc."
       },
       {
         "id": 2,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-2.svg",
-        "title": "Artificial Intelligence",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/pos.png",
+        "title": "Tu propio POS",
+        "description": "Puede asignar un POS a cada empleado, a cada caja o sucursal en cualquier lugar a través de nuestro POS móvil conectado a su Wallet corporativa, usted solo ingresa el monto en dólares y nuestro POS Bitcoin le generará un Código QR para que su cliente pueda realizar su pago."
       },
       {
         "id": 3,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-3.svg",
-        "title": "Privacy & Security",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
-      },
-      {
-        "id": 4,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-4.svg",
-        "title": "Annual Reports",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
-      },
-      {
-        "id": 5,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-5.svg",
-        "title": "Video Tutorial",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
-      },
-      {
-        "id": 6,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-6.svg",
-        "title": "Performance Analysis",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/pass.png",
+        "title": "Crea links de pago",
+        "description": "Cobrar en Bitcoin nunca había sido tan fácil!, Cree Facturas, Enlaces o botones de pago para sus clientes, envíe estos enlaces por correo electrónico, Whatsapp, etc."
       }
     ]
   },
@@ -181,28 +163,16 @@
     "title": "Most promising secure transaction with fast & Entertaining",
     "description": "Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool."
   },
-  "WalletDashboardData": [
-    {
-      "step": "Step 01",
-      "title": "Create a free Account",
-      "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
-    },
-    {
-      "step": "Step 02",
-      "title": "Verified your Account",
-      "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
-    },
-    {
-      "step": "Step 03",
-      "title": "Monitor your Dashboard",
-      "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
-    },
-    {
-      "step": "Step 04",
-      "title": "Promote & Refer Account",
-      "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
+  "WalletDashboardData": {
+    "image": "../../../common/assets/image/app-minimal/boveda.png",
+    "title": "Acepta BTC en tu negocio",
+    "text": "Tiankii Pay es una pasarela de pagos que ayuda a las empresas a aceptar Pagos Bitcoin en cualquier lugar y de manera segura. TiankiiPay esta enfocado en proveer herramientas para que las empresas acepten pagos Bitcoin en todos sus canales de ventas.",
+    "tagline": "*No Credit card required",
+    "button": {
+      "link": "#",
+      "label": "Try it for free"
     }
-  ],
+  },
   "TrackData": {
     "title": "The Most Effective wallet app to track your ultimate daily transaction",
     "paragraph": [

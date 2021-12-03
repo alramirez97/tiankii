@@ -1,5 +1,6 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Icon } from 'react-icons-kit';
 import PropTypes from 'prop-types';
 import Tabs, { TabPane } from 'rc-tabs';
 import 'rc-tabs/assets/index.css';
@@ -7,68 +8,66 @@ import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Container from 'common/components/UI/Container';
+import Mano from '../../../common/assets/image/app-minimal/boveda.png';
+import { SectionHeader } from '../app-minimal.style';
 import GatsbyImage from 'common/components/GatsbyImage';
 
-import SectionWrapper from './walletDashboard.style';
+import SectionWrapper, { ThumbWrapper, TextWrapper } from './walletDashboard.style';
 
-const WalletDashboard = ({ secTitleWrapper, secText, secHeading }) => {
+const WalletDashboard = () => {
   const Data = useStaticQuery(graphql`
     query {
       appMinimalJson {
         WalletDashboardData {
-          step
           title
+          text
+          button {
+            link
+            label
+          }
           image {
             childImageSharp {
               gatsbyImageData(
-                width: 935
+                width: 945
                 placeholder: BLURRED
                 formats: [AUTO, WEBP, AVIF]
               )
             }
           }
+          tagline
         }
       }
     }
   `);
+  const { title, text, button, image, tagline } =
+    Data.appMinimalJson.WalletDashboardData;
   return (
     <SectionWrapper id="dashboard_section">
       <Container>
-        <Box {...secTitleWrapper}>
-          <Heading {...secHeading} content="How Wallet Dashboard Works" />
-          <Text
-            {...secText}
-            content="Build an incredible workplace and grow your business with Gusto"
-          />
-        </Box>
-        <Tabs
-          // renderTabBar={() => <ScrollableInkTabBar />}
-          // renderTabContent={() => <TabContent animated={false} />}
-          className="update-screen-tab"
-        >
-          {Data.appMinimalJson.WalletDashboardData.map(
-            ({ step, title, image }, index) => (
-              <TabPane
-                tab={
-                  <>
-                    <Heading as="h3" content={step} />
-                    {title}
-                  </>
-                }
-                key={index + 1}
-              >
-                <GatsbyImage
-                  src={
-                    (image !== null) | undefined
-                      ? image.childImageSharp.gatsbyImageData
-                      : {}
-                  }
-                  alt={`screenshot-${index + 1}`}
-                />
-              </TabPane>
-            )
-          )}
-        </Tabs>
+      
+        
+        <TextWrapper>
+          <SectionHeader className="section-header-two">
+          <Heading as="h2" content={title} />
+          <Text as="p" content={text} />
+          <button className="button">
+              {button.label}
+            </button>
+          </SectionHeader>
+
+        </TextWrapper>
+        <ThumbWrapper>
+        <GatsbyImage
+        src={
+          (image !== null) | undefined
+            ? image.childImageSharp.gatsbyImageData
+            : {}
+        }
+        className="bannerMoc"
+        alt="banner image"
+      />
+        </ThumbWrapper>
+        
       </Container>
     </SectionWrapper>
   );

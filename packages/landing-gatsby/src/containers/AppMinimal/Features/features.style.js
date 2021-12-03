@@ -5,13 +5,13 @@ import { rgba } from 'polished';
 const SectionWrapper = styled.section`
   padding: 100px 0;
   overflow: hidden;
-  background-color: ${themeGet('colors.secondary', '#19202C')};
+  background-color: #eeedf2;
   header.text-white {
     h2 {
-      color: ${themeGet('colors.white', '#FFFFFF')};
+      color: #1d0760;
     }
     p {
-      color: ${themeGet('colors.white', '#FFFFFF')};
+      color: #1d0760;
       opacity: 0.9;
     }
   }
@@ -76,7 +76,7 @@ export const FeatureWrapper = styled.div`
   .feature__block {
     text-align: center;
     .icon__wrapper {
-      max-width: 115px;
+      max-width: 180px;
       margin: 0 auto 25px;
       position: relative;
       @media only screen and (max-width: 1366px) {
@@ -85,7 +85,7 @@ export const FeatureWrapper = styled.div`
       img {
         display: inline-block;
         @media only screen and (max-width: 1366px) {
-          height: 90px;
+          height: 140px;
         }
         @media only screen and (max-width: 767px) {
           height: 80px;
@@ -95,7 +95,7 @@ export const FeatureWrapper = styled.div`
     .content__wrapper {
       margin: 0 auto;
       h3 {
-        color: ${themeGet('colors.white', '#FFFFFF')};
+        color: #1d0760;
         font-size: 18px;
         line-height: 1.45;
         font-weight: 700;
@@ -105,7 +105,7 @@ export const FeatureWrapper = styled.div`
         }
       }
       p {
-        color: ${themeGet('colors.white', '#FFFFFF')};
+        color: #1d0760;
         font-size: 16px;
         line-height: 1.9;
         padding: 0 15px;

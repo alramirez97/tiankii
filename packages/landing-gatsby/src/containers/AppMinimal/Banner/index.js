@@ -41,13 +41,12 @@ const Banner = () => {
   return (
     <BannerArea id="banner_section">
 
-      
       <Container className="Container">
         <Col>
           <Heading as="h2" content={title} />
           <Text as="p" content={text} />
           <Box className="ButtonWrap">
-            <Link to={button.link} className="Button">
+            <Link to={button.link} className="button">
               {button.label}
               <Icon size={18} icon={androidArrowForward} />
             </Link>
