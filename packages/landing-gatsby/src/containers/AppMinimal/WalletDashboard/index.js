@@ -50,7 +50,7 @@ const WalletDashboard = () => {
           <SectionHeader className="section-header-two">
           <h2>Acepta BTC en tu negocio </h2>
           <p>Tiankii Pay es una pasarela de pagos que ayuda a las empresas a aceptar Pagos Bitcoin en cualquier lugar y de manera segura. TiankiiPay esta enfocado en proveer herramientas para que las empresas acepten pagos Bitcoin en todos sus canales de ventas. </p>
-            
+          <button className="button">SOLICITAR DEMO</button>
           </SectionHeader>
 
         </TextWrapper>

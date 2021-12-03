@@ -3,6 +3,23 @@ import { themeGet } from '@styled-system/theme-get';
 import { rgba } from 'polished';
 
 const SectionWrapper = styled.section`
+.button {
+  width: 174px;
+  height: 53px;
+  margin: 31px 378px 0 0;
+  padding: 17px 32px 16px 25px;
+  border-radius: 10px;
+  background-color: #ff763c;
+  font-family: Exo;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
 h2 {
 
 font-family: Exo;
@@ -29,7 +46,7 @@ p {
   background-color: #6225ff;
   @media (max-width: 1600px) {
     padding-top: 0;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
   }
   > div.container {
     display: flex;

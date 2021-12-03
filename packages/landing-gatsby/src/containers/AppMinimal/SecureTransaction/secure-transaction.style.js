@@ -115,6 +115,7 @@ export const ContentWrapper = styled.div`
   flex-wrap: wrap;
   align-items: center;
   .image {
+    
     position: relative;
     width: calc(100% - 465px);
     @keyframes bubbleLeftRight {
@@ -167,6 +168,15 @@ export const ContentWrapper = styled.div`
     margin: 15px 0 0 0;
   padding: 27.7px 21px 13px 23.5px;
   border-radius: 20px;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d0760;
 
   background-color: #FFF;
     @media (max-width: 1600px) {
