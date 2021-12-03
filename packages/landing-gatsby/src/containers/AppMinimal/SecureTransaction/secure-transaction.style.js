@@ -2,6 +2,50 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.div`
+
+.imageTiankii{
+  width: 409.7px;
+  height: 78px;
+  margin: 0 81.3px 1.7px 98px;
+  object-fit: contain;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pasarela{
+    width: 274px;
+    height: 31px;
+    margin: 1.7px 149px 29.1px 166px;
+    font-family: Exo;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.87;
+    letter-spacing: normal;
+    color: #ff763c;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.vender{
+    width: 679px;
+    height: 96px;
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #1d0760;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
   padding-bottom: 0px;
   overflow: hidden;
 `;

@@ -8,6 +8,7 @@ import Image from 'common/components/Image';
 import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
 import SectionWrapper, { ContentWrapper } from './secure-transaction.style';
+import tiankii from '../../../common/assets/image/app-minimal/tiankii.png'
 
 const SecureTransaction = () => {
   const Data = useStaticQuery(graphql`
@@ -39,6 +40,13 @@ const SecureTransaction = () => {
   return (
     <SectionWrapper>
       <Container>
+
+        <div>
+          <img className="imageTiankii" src={tiankii}/>
+        </div>
+        <h3 className="pasarela" >Pasarela de pagos Bitcoin</h3>
+        <span className="vender">Vender por Redes Sociales con Bitcoin nunca había sido tan fácil!, Cree Facturas, Enlaces o botones de pago y envíe a sus clientes estos enlaces por Messenger, email, Whatsapp, etc</span>
+
         <ContentWrapper>
           <div className="image">
             <GatsbyImage
@@ -49,14 +57,10 @@ const SecureTransaction = () => {
               }
               alt="Transaction"
             />
-            <Image
-              src={image.bubble.publicURL}
-              alt="bubble image"
-              className="bubble-image"
-            />
+            
           </div>
           <div className="content">
-            <Heading content={title} />
+            <Heading  content={title} />
             <Text content={description} />
             <Link to="#" className="button">
               Learn More <Icon icon={androidArrowForward} />

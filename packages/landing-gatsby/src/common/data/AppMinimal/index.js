@@ -256,9 +256,9 @@ export const secureTransaction = {
     thumb: transactionThumb,
     bubble: transactionThumbBubble,
   },
-  title: 'Most promising secure transaction with fast & Entertaining',
+  title: 'Panel Administrativo',
   description:
-    'Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.',
+    'Nuestro panel administrativo le permite monitorear todos los ingresos en Bitcoin en cada una de sus sucursales, ademas gestionar sus billeteras bitcoins corporativas, usuarios, sucursales, facturas, pos, links y botones de pagos, etc.',
 };
 
 /* ------------------------------------ */
