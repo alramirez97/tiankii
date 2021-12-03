@@ -48,8 +48,23 @@ const WalletDashboard = () => {
         
         <TextWrapper>
           <SectionHeader className="section-header-two">
-          <Heading as="h2" content={title} />
-          <Text as="p" content={text} />
+          <h2>Acepta BTC en tu negocio </h2>
+          <p>Tiankii Pay es una pasarela de pagos que ayuda a las empresas a aceptar Pagos Bitcoin en cualquier lugar y de manera segura. TiankiiPay esta enfocado en proveer herramientas para que las empresas acepten pagos Bitcoin en todos sus canales de ventas. </p>
+            
+          </SectionHeader>
+
+        </TextWrapper>
+        <ThumbWrapper>
+          <img src={Mano} />
+        </ThumbWrapper>
+        
+        {/* <TextWrapper>
+          <SectionHeader className="section-header-two">
+          <SectionHeader className="section-header-two">
+          <h2>Acepta BTC en tu negocio </h2>
+          <p>Tiankii Pay es una pasarela de pagos que ayuda a las empresas a aceptar Pagos Bitcoin en cualquier lugar y de manera segura. TiankiiPay esta enfocado en proveer herramientas para que las empresas acepten pagos Bitcoin en todos sus canales de ventas. </p>
+            
+          </SectionHeader>
           <button className="button">
               {button.label}
             </button>
@@ -57,7 +72,8 @@ const WalletDashboard = () => {
 
         </TextWrapper>
         <ThumbWrapper>
-        <GatsbyImage
+        <img src={Mano} />
+        {/* <GatsbyImage
         src={
           (image !== null) | undefined
             ? image.childImageSharp.gatsbyImageData
@@ -65,8 +81,7 @@ const WalletDashboard = () => {
         }
         className="bannerMoc"
         alt="banner image"
-      />
-        </ThumbWrapper>
+      /> */}
         
       </Container>
     </SectionWrapper>

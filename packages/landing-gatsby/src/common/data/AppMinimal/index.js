@@ -243,7 +243,7 @@ export const features = {
 /* ------------------------------------ */
 // Secure Transaction data section
 /* ------------------------------------ */
-import transactionThumb from 'common/src/assets/image/app-minimal/secure-transaction.jpg';
+import transactionThumb from '../../../common/assets/image/app-minimal/sistema.png';
 import transactionThumbBubble from 'common/src/assets/image/app-minimal/secure-transaction-bubble-1.png';
 
 export const secureTransaction = {

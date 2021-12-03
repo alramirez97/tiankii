@@ -13,11 +13,20 @@ const SectionWrapper = styled.div`
   margin-right: auto;
 }
 .Polgono-1 {
-  width: 12px;
+  width: 20px;
   height: 20px;
-  margin: 1.3px 13px 21px 2.5px;
-  background-color: #ff763c;
+  font-family: Exo;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #230764;
 }
+
+
 
 img.sistemasin-fondo {
   width: 777px;
@@ -96,7 +105,7 @@ img.sistemasin-fondo {
   border-radius: 20px;
   background-color: #fff;
 }
-
+background-color: #eeedf2;
   padding-bottom: 0px;
   overflow: hidden;
 `;
@@ -153,18 +162,85 @@ export const ContentWrapper = styled.div`
       width: 100%;
     }
   }
-  .content {
-    width: 465px;
+  .text1 {
+    width: 450px;
+    margin: 15px 0 0 0;
+  padding: 27.7px 21px 13px 23.5px;
+  border-radius: 20px;
+
+  background-color: #FFF;
     @media (max-width: 1600px) {
-      margin-left: 100px;
+      margin-left: 30px;
+      border-radius: 20px;
     }
     @media only screen and (max-width: 991px) {
       width: 80%;
       margin-left: auto;
       margin-right: auto;
+      border-radius: 20px;
     }
     @media only screen and (max-width: 667px) {
       width: 100%;
+      border-radius: 20px;
+    }
+    h2 {
+      color: ${themeGet('colors.headingColor', '#09131F')};
+      font-size: 40px;
+      line-height: 1.35;
+      margin-bottom: 20px;
+      letter-spacing: -0.5px;
+      font-weight: 500;
+      @media (max-width: 1600px) {
+        font-size: 32px;
+      }
+      @media (max-width: 575px) {
+        font-size: 22px;
+      }
+    }
+    h2 {
+      color: ${themeGet('colors.headingColor', '#09131F')};
+      font-size: 40px;
+      line-height: 1.35;
+      margin-bottom: 20px;
+      letter-spacing: -0.5px;
+      font-weight: 500;
+      @media (max-width: 1600px) {
+        font-size: 32px;
+      }
+      @media (max-width: 575px) {
+        font-size: 22px;
+      }
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 2;
+      margin-bottom: 35px;
+      color: ${themeGet('colors.textColor', '#343D48')};
+      @media only screen and (max-width: 1600px) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .content {
+    width: 465px;
+    margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+  background-color: #eeedf2;
+    @media (max-width: 1600px) {
+      margin-left: 0px;
+      border-radius: 20px;
+    }
+    @media only screen and (max-width: 991px) {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+    }
+    @media only screen and (max-width: 667px) {
+      width: 100%;
+      border-radius: 20px;
     }
     h2 {
       color: ${themeGet('colors.headingColor', '#09131F')};
