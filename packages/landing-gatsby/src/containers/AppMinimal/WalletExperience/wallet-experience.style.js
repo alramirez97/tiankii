@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.section`
+  background-image: linear-gradient(to top, #6225ff -5%, #521fd5 24%, #1d0760 95%);
   padding: 150px 0;
   overflow: hidden;
   @media (max-width: 1600px) {
@@ -109,11 +110,38 @@ export const TextWrapper = styled.div`
     width: 100%;
   }
   .section-header-two {
+    
     @media (max-width: 768px) {
       margin-left: 0;
     }
+    h1 {
+      width: 459px;
+      height: 56px;
+      margin: 37.6px 0 23px;
+      font-family: Exo;
+      font-size: 42px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.02;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+    }
     p {
       padding-right: 50px;
+      width: 449px;
+      height: 296px;
+      margin: 23px 10px 0 0;
+      font-family: Exo;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
     }
   }
   .feature__block {

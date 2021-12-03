@@ -12,6 +12,7 @@ import SectionWrapper, {
   ThumbWrapper,
   TextWrapper,
 } from './wallet-experience.style';
+import { Button } from 'react-aria-menubutton';
 
 const WalletExperience = () => {
   const Data = useStaticQuery(graphql`
@@ -56,10 +57,9 @@ const WalletExperience = () => {
       <Container>
         <TextWrapper>
           <SectionHeader className="section-header-two">
-            <Heading content={title} />
+            <Heading as="h1" content={title} />
             <Text content={description} />
           </SectionHeader>
-
           {features.map((item) => (
             <FeatureBlock
               key={`wallet--key${item.id}`}

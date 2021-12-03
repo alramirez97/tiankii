@@ -89,8 +89,8 @@
     ]
   },
   "walletExperience": {
-    "title": "Take your wallet experience to new ultimate level",
-    "description": "Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.",
+    "title": "Conector Tiankii - Chivo",
+    "description": "Tiankii-Chivo es un conector que garantiza una convertibilidad de Bitcoin a USD en Tiempo real a nivel de transacción a travez de la Wallet Oficial de El Gobierno de El Salvador @ChivoWallet. También permite a los comercios aceptar pagos desde Wallets Chivo incluyendo el bono inicial de US $30 de regalo los cuales solo están disponibles para ser gastados entre wallets Chivo. Ademas el conector Tiankii-Chivo permite a los comercios aceptar ya sea Pagos Bitcoin y Pagos en Dólares desde Chivo Wallet.",
     "image": {
       "thumb": "../../assets/image/app-minimal/wallet-thumbnail.jpg",
       "bubble": [
