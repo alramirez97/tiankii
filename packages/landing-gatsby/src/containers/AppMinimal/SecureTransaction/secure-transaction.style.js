@@ -12,6 +12,12 @@ const SectionWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
 }
+.Polgono-1 {
+  width: 12px;
+  height: 20px;
+  margin: 1.3px 13px 21px 2.5px;
+  background-color: #ff763c;
+}
 
 img.sistemasin-fondo {
   width: 777px;

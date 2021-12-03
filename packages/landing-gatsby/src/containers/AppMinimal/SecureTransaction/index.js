@@ -60,7 +60,9 @@ const SecureTransaction = () => {
             
           </div>
           <div className="content">
-            <Heading  content={title} />
+            <p class="Polgono-1" > </p>
+            <a> <Heading  content={title} /></a>
+           
             <Text content={description} />
 
             <Heading  content={title} />
