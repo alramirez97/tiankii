@@ -152,11 +152,13 @@
   },
   "secureTransaction": {
     "image": {
-      "thumb": "../../assets/image/app-minimal/secure-transaction.jpg",
+      "thumb": "../../assets/image/app-minimal/tiankiiPay.jpg",
       "bubble": "../../assets/image/app-minimal/secure-transaction-bubble-1.png"
-    },
-    "title": "Most promising secure transaction with fast & Entertaining",
-    "description": "Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool."
+      
+  },
+    "title": "Panel Administrativo",
+    "description": "Nuestro panel administrativo le permite monitorear todos los ingresos en Bitcoin en cada una de sus sucursales, ademas gestionar sus billeteras bitcoins corporativas, usuarios, sucursales, facturas, pos, links y botones de pagos, etc."
+
   },
   "WalletDashboardData": {
     "image": "../../../common/assets/image/app-minimal/boveda.png",

@@ -2,6 +2,101 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.div`
+
+.imageTiankii{
+  width: 409.7px;
+  height: 80px;
+  margin: 0 81.3px 1.7px 98px;
+  object-fit: contain;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Polgono-1 {
+  width: 12px;
+  height: 20px;
+  margin: 1.3px 13px 21px 2.5px;
+  background-color: #ff763c;
+}
+
+img.sistemasin-fondo {
+  width: 777px;
+  height: 777px;
+  margin: 0 498px 0 0;
+  object-fit: contain;
+}
+
+.pasarela{
+    width: 274px;
+    height: 31px;
+    margin: 1.7px 149px 29.1px 166px;
+    font-family: Exo;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.87;
+    letter-spacing: normal;
+    color: #ff763c;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.vender{
+    width: 679px;
+    height: 96px;
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #1d0760;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.Panel-Administrativo {
+  width: 196px;
+  height: 27px;
+  margin: 0 354px 15.3px 13px;
+  font-family: Exo;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #230764;
+}
+
+.Nuestro-panel-administrativo{
+  width: 577.5px;
+  height: 123px;
+  margin: 15.3px 0 0;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d0760;
+}
+
+.Rectngulo-547 {
+  width: 622px;
+  height: 206px;
+  margin: 0 0 20px;
+  padding: 27.7px 21px 13px 23.5px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
   padding-bottom: 0px;
   overflow: hidden;
 `;

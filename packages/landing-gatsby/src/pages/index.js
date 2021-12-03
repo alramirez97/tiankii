@@ -50,7 +50,6 @@ const AppMinimal = () => {
             <ChooseUs />
             <KeyFeatures /> 
             <WalletExperience />
-            <Features />
             <SecureTransaction />
             <Features />
             <WalletDashboard />
