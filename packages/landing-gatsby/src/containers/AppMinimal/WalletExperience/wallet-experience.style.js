@@ -6,7 +6,7 @@ const SectionWrapper = styled.section`
   padding: 150px 0;
   overflow: hidden;
   @media (max-width: 1600px) {
-    padding: 100px 0;
+    padding: 10px 0;
   }
   > div.container {
     display: flex;
@@ -20,9 +20,12 @@ const SectionWrapper = styled.section`
 
 export const ThumbWrapper = styled.div`
   position: relative;
+  width: 1366px;
+  height: 676px;
+  
   @media only screen and (max-width: 768px) {
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   @media only screen and (max-width: 480px) {
     width: 100%;
@@ -94,6 +97,16 @@ export const ThumbWrapper = styled.div`
       display: none;
     }
   }
+
+  .logoM {
+    width: 1000px;
+    height: 900px;
+    margin-top: -140px;
+    margin-bottom: 90px;
+    margin-left: -30px;
+    margin-right: 100px;
+    
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -129,7 +142,6 @@ export const TextWrapper = styled.div`
       color: #fff;
     }
     p {
-      padding-right: 50px;
       width: 449px;
       height: 296px;
       margin: 23px 10px 0 0;
@@ -175,12 +187,7 @@ export const TextWrapper = styled.div`
     }
   }
 
-  .logo {
-    width: 700px;
-    height: 1000px;
-    
-    object-fit: contain;
-  }
+  
 
   .feature__block {
     margin-top: 50px;

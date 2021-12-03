@@ -8,6 +8,9 @@ import GatsbyImage from 'common/components/GatsbyImage';
 import FeatureBlock from 'common/components/FeatureBlock';
 import { SectionHeader } from '../app-minimal.style';
 
+import logo from '../../../common/assets/image/app-minimal/img-Titulo.png'
+import logoM from '../../../common/assets/image/app-minimal/hands-punch.png'
+
 import SectionWrapper, {
   ThumbWrapper,
   TextWrapper,
@@ -57,6 +60,7 @@ const WalletExperience = () => {
       <Container>
         <TextWrapper>
           <SectionHeader className="section-header-two">
+            <img src={logo} />
             <Heading as="h1" content={title} />
             <Text content={description} />
             <button className='Button'>SOLICITAR DEMO</button>
@@ -72,14 +76,15 @@ const WalletExperience = () => {
           ))} */}
         </TextWrapper>
         <ThumbWrapper>
-          <GatsbyImage
+        <img className='logoM' src={logoM} />
+          {/* <GatsbyImage
             src={
               (image.thumb !== null) | undefined
                 ? image.thumb.childImageSharp.gatsbyImageData
                 : {}
             }
             alt="Wallet Thumbnail"
-          />
+          /> */}
           {/* {image.bubble.map(({ image }, index) => (
             <Image
               src={image.publicURL}
