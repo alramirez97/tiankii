@@ -3,7 +3,7 @@ import { themeGet } from '@styled-system/theme-get';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: Exo;
     font-size: 16px;
   }
   h1,
@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: Exo;
     /* font-family: 'Work Sans', sans-serif; */
   }
   p:last-of-type {

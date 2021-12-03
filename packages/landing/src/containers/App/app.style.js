@@ -7,7 +7,7 @@ import BannerPattern from 'common/assets/image/app/pattern.png';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Exo;
   }
 
   h1,

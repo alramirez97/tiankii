@@ -117,7 +117,7 @@ export const TextWrapper = styled.div`
       color: ${rgba('#09131F', 0.2)};
       font-size: 64px;
       line-height: 1em;
-      font-family: 'Work Sans', sans-serif;
+      font-family: Exo;
       width: 100px;
       flex-shrink: 0;
       padding-top: 10px;

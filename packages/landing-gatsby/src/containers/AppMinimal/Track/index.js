@@ -1,11 +1,14 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Box from 'common/components/Box';
-import Heading from 'common/components/Heading';
 import Text from 'common/components/Text';
+import Heading from 'common/components/Heading';
 import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
-import TrackArea, { Row, Col } from './track.style';
+import FeatureBlock from 'common/components/FeatureBlock';
+import { SectionHeader } from '../app-minimal.style';
+import SectionWrapper, { ThumbWrapper, TextWrapper } from './track.style';
+import logoS from '../../../common/assets/image/app-minimal/seguro-nubee.png'
+import logoG from '../../../common/assets/image/app-minimal/Grupo.png'
 
 const Track = () => {
   const Data = useStaticQuery(graphql`
@@ -13,66 +16,61 @@ const Track = () => {
       appMinimalJson {
         TrackData {
           title
-          paragraph {
-            text
+          description
+          features {
+            id
+            title
+            description
           }
-          trackBox {
-            image {
-              childImageSharp {
-                gatsbyImageData(
-                  layout: FULL_WIDTH
-                  placeholder: BLURRED
-                  formats: [AUTO, WEBP, AVIF]
-                )
-              }
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(
+                width: 724
+                placeholder: BLURRED
+                formats: [AUTO, WEBP, AVIF]
+              )
             }
-            count
-            text
           }
         }
       }
     }
   `);
-  const { title, paragraph, trackBox } = Data.appMinimalJson.TrackData;
+  const { title, description, thumbnail, features } =
+    Data.appMinimalJson.TrackData;
   return (
-    <TrackArea>
-      <Container className="Container">
-        <Row>
-          <Col>
-            <Box className="Left">
-              <Heading as="h2" content={title} />
-              <Box className="TrackRow">
-                {trackBox.map(({ image, count, text }, index) => (
-                  <Box className="TrackCol" key={`track-key-${index}`}>
-                    <Box className="TrackBox">
-                      <Box className="TrackImage">
-                        <GatsbyImage
-                          src={
-                            (image !== null) | undefined
-                              ? image.childImageSharp.gatsbyImageData
-                              : {}
-                          }
-                          alt="track image"
-                        />
-                      </Box>
-                      <Heading as="h3" content={`${count}%`} />
-                      <Text as="p" content={text} />
-                    </Box>
-                  </Box>
-                ))}
-              </Box>
-            </Box>
-          </Col>
-          <Col>
-            <Box className="Right">
-              {paragraph.map(({ text }, index) => (
-                <Text as="p" key={`track-text-key-${index}`} content={text} />
-              ))}
-            </Box>
-          </Col>
-        </Row>
+    <SectionWrapper>
+      <Container>
+        <ThumbWrapper>
+        <img className='logoM' src={logoS} />
+          {/* <GatsbyImage
+            src={
+              (thumbnail !== null) | undefined
+                ? thumbnail.childImageSharp.gatsbyImageData
+                : {}
+            }
+            alt="Choose Thumbnail"
+          /> */}
+        </ThumbWrapper>
+
+        <TextWrapper>
+          <SectionHeader className="section-header-two">
+            <Heading className='title' content={title} />
+            <Text content={description} />
+          </SectionHeader>
+          
+          {features.map((item) => (
+            <FeatureBlock
+              key={`app-feature--key${item.id}`}
+              iconPosition="left"
+              // icon={<Text as="span" content={'0' + item.id} />}
+              title={<Heading as="h3" content={item.title} />}
+              description={<Text as="descripcion" content={item.description} />}
+            />
+          ))}
+        <img className='logoG' src={logoG} />
+        </TextWrapper>
       </Container>
-    </TrackArea>
+    </SectionWrapper>
   );
 };
 

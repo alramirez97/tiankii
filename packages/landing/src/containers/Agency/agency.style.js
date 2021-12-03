@@ -12,7 +12,7 @@ import { themeGet } from '@styled-system/theme-get';
 /* agency global style */
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Exo;
   }
   h1,
   h2,
