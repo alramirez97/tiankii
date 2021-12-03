@@ -62,9 +62,12 @@ const SecureTransaction = () => {
           <div className="content">
             <Heading  content={title} />
             <Text content={description} />
-            <Link to="#" className="button">
-              Learn More <Icon icon={androidArrowForward} />
-            </Link>
+
+            <Heading  content={title} />
+            <Text content={description} />
+
+            <Heading  content={title} />
+            <Text content={description} />
           </div>
         </ContentWrapper>
       </Container>
