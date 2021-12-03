@@ -144,6 +144,44 @@ export const TextWrapper = styled.div`
       color: #fff;
     }
   }
+  .Button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+    color: #ffffff;
+    padding: 21px 29px;
+    background-color: #ff763c;
+    transition: all 500ms ease;
+    &:hover {
+      background-color: #fff;
+      color: #23374d;
+    }
+    i {
+      margin-left: 10px;
+      position: relative;
+      top: 1px;
+    }
+    @media (max-width: 1600px) {
+      font-size: 14px;
+      padding: 16px 23px;
+    }
+    @media (max-width: 575px) {
+      width: 100%;
+    }
+  }
+
+  .logo {
+    width: 700px;
+    height: 1000px;
+    
+    object-fit: contain;
+  }
+
   .feature__block {
     margin-top: 50px;
     align-items: center;

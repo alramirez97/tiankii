@@ -148,7 +148,7 @@ export const walletExperience = {
   title: 'Take your wallet experience to new ultimate level',
   description:
     'Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.',
-  image: {
+    image: {
     thumb: walletThumb,
     bubble: [
       {
