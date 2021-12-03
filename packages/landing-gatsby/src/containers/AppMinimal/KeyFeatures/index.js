@@ -35,8 +35,9 @@ const KeyFeatures = () => {
     <SectionWrapper id="feature_section">
       <Container>
         <SectionHeader>
-          <Heading content={title} />
-          <Text content={description} />
+          {/* <--! Heading content={title} / --> */}
+          <h1 className="soluciones">Soluciones en </h1><h2 className="multiples">multiples áreas</h2>
+          
         </SectionHeader>
         <FeatureWrapper>
           {features.map((item) => (

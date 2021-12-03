@@ -340,11 +340,12 @@ export const SectionHeader = styled.header`
       margin-bottom: 10px;
     }
   }
+  
   h2 {
     font-size: 28px;
     line-height: 1.3;
     font-weight: 500;
-    color: ${themeGet('colors.headingColor', '#0F2137')};
+    color: ${themeGet('colors.headingColor', '#FFF')};
     margin-bottom: 18px;
     letter-spacing: -0.5px;
     @media only screen and (max-width: 1600px) {

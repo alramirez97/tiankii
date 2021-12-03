@@ -1,0 +1,34 @@
+<svg id="shop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.436" height="98.436" viewBox="0 0 98.436 98.436">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" y1="1" x2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ff3440"/>
+            <stop offset="1" stop-color="#6200ff"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-8" x1=".5" y1="1" x2=".5" y2="0" xlink:href="#linear-gradient"/>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Grupo_451" data-name="Grupo 451" transform="translate(26.367 68.553)">
+        <path id="Trazado_436" data-name="Trazado 436" class="cls-1" d="M641.168 786.808h-48.339a7.943 7.943 0 0 1-7.91-7.91 7.919 7.919 0 0 1 7.91-7.91h50.1a1.758 1.758 0 0 1 0 3.516h-50.1a4.4 4.4 0 0 0-4.395 4.394 4.426 4.426 0 0 0 4.395 4.394h48.339a1.758 1.758 0 1 1 0 3.516z" transform="translate(-584.919 -770.988)"/>
+    </g>
+    <g id="Grupo_452" data-name="Grupo 452">
+        <path id="Trazado_437" data-name="Trazado 437" class="cls-1" d="M588.71 746.05h-11.76a7.031 7.031 0 1 1 0-14.062h8.789a1.758 1.758 0 0 1 1.693 1.28l2.971 10.547a1.761 1.761 0 0 1-1.693 2.236zm-11.76-10.55a3.515 3.515 0 1 0 0 7.031h9.439l-1.981-7.031z" transform="translate(-569.919 -731.988)"/>
+    </g>
+    <g id="Grupo_453" data-name="Grupo 453" transform="translate(14.062)">
+        <path id="Trazado_438" data-name="Trazado 438" class="cls-1" d="M599.011 804.057a1.764 1.764 0 0 1-1.691-1.282l-19.336-68.553a1.759 1.759 0 0 1 3.386-.954l19.336 68.553a1.76 1.76 0 0 1-1.215 2.169 1.743 1.743 0 0 1-.48.067z" transform="translate(-577.919 -731.988)"/>
+    </g>
+    <g id="Grupo_454" data-name="Grupo 454" transform="translate(21.498 26.367)">
+        <path id="Trazado_439" data-name="Trazado 439" class="cls-1" d="M645.025 792.69h-49.218a1.761 1.761 0 0 1-1.693-1.281l-11.9-42.187a1.759 1.759 0 0 1 1.693-2.234H602.4a1.758 1.758 0 0 1 1.638 1.118 17.584 17.584 0 0 0 32.758 0 1.758 1.758 0 0 1 1.638-1.118h18.9a1.758 1.758 0 0 1 1.688 2.25l-12.3 42.187a1.757 1.757 0 0 1-1.697 1.265zm-47.887-3.516h46.569l11.28-38.671H639.6a21.1 21.1 0 0 1-38.362 0h-15z" transform="translate(-582.149 -746.988)"/>
+    </g>
+    <g id="Grupo_455" data-name="Grupo 455" transform="translate(35.156 80.858)">
+        <path id="Trazado_440" data-name="Trazado 440" class="cls-1" d="M598.708 795.566a8.789 8.789 0 1 1 8.789-8.789 8.8 8.8 0 0 1-8.789 8.789zm0-14.062a5.273 5.273 0 1 0 5.273 5.273 5.279 5.279 0 0 0-5.273-5.277z" transform="translate(-589.919 -777.988)"/>
+    </g>
+    <g id="Grupo_456" data-name="Grupo 456" transform="translate(73.827 80.858)">
+        <path id="Trazado_441" data-name="Trazado 441" class="cls-1" d="M620.708 795.566a8.789 8.789 0 1 1 8.789-8.789 8.8 8.8 0 0 1-8.789 8.789zm0-14.062a5.273 5.273 0 1 0 5.273 5.273 5.279 5.279 0 0 0-5.273-5.277z" transform="translate(-611.919 -777.988)"/>
+    </g>
+    <g id="Grupo_457" data-name="Grupo 457" transform="translate(38.671)">
+        <path id="Trazado_442" data-name="Trazado 442" class="cls-1" d="M627.075 737.384a21.073 21.073 0 0 0-35.156 15.7 21.248 21.248 0 0 0 1.441 7.664 21.074 21.074 0 0 0 39.3 0 21.252 21.252 0 0 0 1.441-7.664 20.945 20.945 0 0 0-7.026-15.7zm2.32 22.1a17.593 17.593 0 0 1-32.765 0 17.576 17.576 0 0 1 30.445-16.927 17.4 17.4 0 0 1 3.516 10.529 17.728 17.728 0 0 1-1.196 6.394z" transform="translate(-591.919 -731.988)"/>
+    </g>
+    <path id="Unión_1" data-name="Unión 1" d="M8.79 22.85v-1.757H7.03v1.757a1.758 1.758 0 1 1-3.515 0v-1.757H1.758a1.758 1.758 0 0 1 0-3.515V7.03a1.758 1.758 0 1 1 0-3.515h1.757V1.758a1.758 1.758 0 0 1 3.515 0v1.757h1.76V1.758a1.758 1.758 0 1 1 3.515 0v2.059a5.271 5.271 0 0 1 2.836 7.559 5.272 5.272 0 0 1-2.841 9.717v1.757a1.758 1.758 0 1 1-3.515 0zm3.51-5.272a1.758 1.758 0 1 0 0-3.515H5.273v3.515zm-1.758-7.03a1.758 1.758 0 0 0 0-3.517H5.273v3.517z" transform="translate(50.976 8.789)" style="stroke:transparent;stroke-miterlimit:10;fill:url(#linear-gradient-8)"/>
+</svg>

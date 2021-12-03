@@ -60,8 +60,8 @@ export const BannerData = {
 /* ------------------------------------ */
 // Key Features data section
 /* ------------------------------------ */
-import keyFeature1 from 'common/src/assets/image/app-minimal/key-feature/key-feature-1.svg';
-import keyFeature2 from 'common/src/assets/image/app-minimal/key-feature/key-feature-2.svg';
+import keyFeature1 from '../../../common/assets/image/app-minimal/qr.png';
+import keyFeature2 from '../../../common/assets/image/app-minimal/qr.png';
 import keyFeature3 from 'common/src/assets/image/app-minimal/key-feature/key-feature-3.svg';
 import keyFeature4 from 'common/src/assets/image/app-minimal/key-feature/key-feature-4.svg';
 
@@ -183,8 +183,8 @@ export const walletExperience = {
 /* ------------------------------------ */
 // Features data section
 /* ------------------------------------ */
-import featureIcon1 from 'common/src/assets/image/app-minimal/feature/feature-icon-1.svg';
-import featureIcon2 from 'common/src/assets/image/app-minimal/feature/feature-icon-2.svg';
+import featureIcon1 from '../../../common/assets/image/app-minimal/qr.png';
+import featureIcon2 from '../../../common/assets/image/app-minimal/pos.png';
 import featureIcon3 from 'common/src/assets/image/app-minimal/feature/feature-icon-3.svg';
 import featureIcon4 from 'common/src/assets/image/app-minimal/feature/feature-icon-4.svg';
 import featureIcon5 from 'common/src/assets/image/app-minimal/feature/feature-icon-5.svg';
@@ -260,30 +260,19 @@ export const secureTransaction = {
 // WalletDashboard data section
 /* ------------------------------------ */
 
-import walletDashboardImage from 'common/src/assets/image/app-minimal/wallet-dashboard-1.png';
+import walletDashboardImage from '../../../common/assets/image/app-minimal/boveda.png';
 
-export const WalletDashboardData = [
-  {
-    step: 'Step 01',
-    title: 'Create a free Account',
-    image: walletDashboardImage,
+export const WalletDashboardData = {
+  image: walletDashboardImage,
+  title: 'Only trusted wallet apps that make your day beautiful',
+  text:
+    'There will be a day–in our lifetime–when we get to celebrate every person on the planet having access. Moment Pro is the best software platform to collect reviews.',
+  tagline: '*No Credit card required',
+  button: {
+    link: '#',
+    label: 'Try it for free',
   },
-  {
-    step: 'Step 02',
-    title: 'Verified your Account',
-    image: walletDashboardImage,
-  },
-  {
-    step: 'Step 03',
-    title: 'Monitor your Dashboard',
-    image: walletDashboardImage,
-  },
-  {
-    step: 'Step 04',
-    title: 'Promote & Refer Account',
-    image: walletDashboardImage,
-  },
-];
+};
 
 /* ------------------------------------ */
 // Track data section

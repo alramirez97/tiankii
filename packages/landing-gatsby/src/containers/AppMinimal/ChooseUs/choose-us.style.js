@@ -3,7 +3,30 @@ import { themeGet } from '@styled-system/theme-get';
 import { rgba } from 'polished';
 
 const SectionWrapper = styled.section`
+h2 {
+
+font-family: Exo;
+font-size: 80px;
+font-weight: 700;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.02;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+}
+p {
+  font-family: Exo;
+  color: #FFF;
+  font-size: 22px;
+  line-height: 1.92;
+  text-align: justify;
+  @media (max-width: 1600px) {
+    font-size: 19px;
+  }
+}
   padding: 75px 0 180px;
+  background-color: #6225ff;
   @media (max-width: 1600px) {
     padding-top: 0;
     padding-bottom: 100px;
@@ -21,9 +44,16 @@ const SectionWrapper = styled.section`
       margin-left: 0;
     }
   }
+  
 `;
 
 export const ThumbWrapper = styled.div`
+  img {
+    width: 495px;
+    height: 495px;
+    margin: 2px 30px 2px 30px;
+    object-fit: contain;
+  }
   width: calc(100% - 510px);
   @media (max-width: 1600px) {
     width: calc(100% - 476px);
@@ -44,9 +74,11 @@ export const ThumbWrapper = styled.div`
       max-width: 100%;
     }
   }
+
 `;
 
 export const TextWrapper = styled.div`
+
   width: 440px;
   @media (max-width: 1600px) {
     width: 406px;
@@ -79,7 +111,7 @@ export const TextWrapper = styled.div`
       }
     }
     h3 {
-      color: ${themeGet('colors.headingColor', '#09131F')};
+      color: ${themeGet('colors.headingColor', '#FFF')};
       font-size: 18px;
       line-height: 1.45;
       font-weight: 700;

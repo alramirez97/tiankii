@@ -7,6 +7,7 @@ import GatsbyImage from 'common/components/GatsbyImage';
 import FeatureBlock from 'common/components/FeatureBlock';
 import { SectionHeader } from '../app-minimal.style';
 import SectionWrapper, { ThumbWrapper, TextWrapper } from './choose-us.style';
+import Mano from '../../../common/assets/image/app-minimal/mano.webp';
 
 const ChooseUs = () => {
   const Data = useStaticQuery(graphql`
@@ -39,31 +40,16 @@ const ChooseUs = () => {
     <SectionWrapper>
       <Container>
         <ThumbWrapper>
-          <GatsbyImage
-            src={
-              (thumbnail !== null) | undefined
-                ? thumbnail.childImageSharp.gatsbyImageData
-                : {}
-            }
-            alt="Choose Thumbnail"
-          />
+          <img src={Mano} />
         </ThumbWrapper>
-
+        
         <TextWrapper>
           <SectionHeader className="section-header-two">
-            <Heading content={title} />
-            <Text content={description} />
+          <h2>Acepta BTC en tu negocio </h2>
+          <p>Tiankii Pay es una pasarela de pagos que ayuda a las empresas a aceptar Pagos Bitcoin en cualquier lugar y de manera segura. TiankiiPay esta enfocado en proveer herramientas para que las empresas acepten pagos Bitcoin en todos sus canales de ventas. </p>
+            
           </SectionHeader>
 
-          {features.map((item) => (
-            <FeatureBlock
-              key={`app-feature--key${item.id}`}
-              iconPosition="left"
-              icon={<Text as="span" content={'0' + item.id} />}
-              title={<Heading as="h3" content={item.title} />}
-              description={<Text content={item.description} />}
-            />
-          ))}
         </TextWrapper>
       </Container>
     </SectionWrapper>

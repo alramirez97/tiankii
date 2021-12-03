@@ -2,8 +2,39 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.section`
+background-color: #eeedf2;
   padding: 75px 0 120px;
   overflow: hidden;
+  .soluciones {
+    width: 270px;
+    height: 56px;
+    margin: 0 0 0 0;
+    font-family: Exo;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d0760;
+  }
+  .multiples {
+    width: 300.8px;
+    height: 42.3px;
+    font-family: Exo;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    margin: 0 0 0 0;
+    background: linear-gradient(89deg, #6225ff 0%, #ff763c 100%);
+    -webkit-background-clip: text;
+    color: transparent; 
+  }
+  h1, h2 {display: inline;}
 `;
 
 export const FeatureWrapper = styled.div`
@@ -20,7 +51,7 @@ export const FeatureWrapper = styled.div`
   }
 
   > div {
-    width: calc(100% / 4 - 27px);
+    width: calc(100% / 3 - 27px);
     margin: 15px 0 30px;
     @media only screen and (max-width: 991px) {
       width: calc(100% / 2 - 15px);

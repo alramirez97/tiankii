@@ -3,7 +3,6 @@ import styled from 'styled-components';
 //background-image: url(${BannerBg});
 const BannerArea = styled.section`
   background-color: #1d0760;
-  
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 260px;
@@ -136,7 +135,18 @@ const BannerArea = styled.section`
     }
   }
 `;
+
+export const Imagen = styled.div`
+  img {
+    width: 762px;
+    height: 762px;
+    margin: 0 118px 0 486px;
+    padding: 50.5px 102px 688.5px 34px;
+    object-fit: contain;
+  }
+`
 export const Col = styled.div`
+  
   flex: 0 0 50%;
   max-width: 50%;
   @media (max-width: 575px) {
@@ -144,5 +154,6 @@ export const Col = styled.div`
     max-width: 100%;
   }
 `;
+
 
 export default BannerArea;

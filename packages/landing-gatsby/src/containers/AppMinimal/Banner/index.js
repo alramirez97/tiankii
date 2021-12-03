@@ -10,6 +10,7 @@ import GatsbyImage from 'common/components/GatsbyImage';
 import BannerArea, { Col } from './banner.style';
 // import server from '../../../common/assets/image/app-minimal/server.png'
 
+
 const Banner = () => {
   const Data = useStaticQuery(graphql`
     query {
@@ -40,6 +41,7 @@ const Banner = () => {
 
   return (
     <BannerArea id="banner_section">
+
       
       <GatsbyImage
         src={
@@ -55,16 +57,18 @@ const Banner = () => {
           <Heading as="h2" content={title} />
           <Text as="p" content={text} />
           <Box className="ButtonWrap">
-            <Link to={button.link} className="Button">
+            <Link to={button.link} className="button">
               {button.label}
               <Icon size={18} icon={androidArrowForward} />
             </Link>
             <Text as="span" content={tagline} />
           </Box>
         </Col>
+
         {/* <Col>
           <img className='imgBanner1' src={server} />
         </Col> */}
+
       </Container>
     </BannerArea>
   );
