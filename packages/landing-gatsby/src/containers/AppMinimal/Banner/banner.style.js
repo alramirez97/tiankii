@@ -84,7 +84,7 @@ const BannerArea = styled.section`
       }
     }
   }
-  .Button {
+  .button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
