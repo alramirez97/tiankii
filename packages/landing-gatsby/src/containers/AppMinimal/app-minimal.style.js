@@ -340,6 +340,7 @@ export const SectionHeader = styled.header`
       margin-bottom: 10px;
     }
   }
+  
   h2 {
     font-size: 28px;
     line-height: 1.3;

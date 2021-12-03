@@ -32,10 +32,7 @@ const Features = () => {
   return (
     <SectionWrapper id="service_section">
       <Container>
-        <SectionHeader className="text-white">
-          <Heading content={title} />
-          <Text content={description} />
-        </SectionHeader>
+        
         <FeatureWrapper>
           {items.map((item) => (
             <FeatureBlock

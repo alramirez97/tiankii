@@ -36,6 +36,7 @@ const KeyFeatures = () => {
       <Container>
         <SectionHeader>
           {/* <--! Heading content={title} / --> */}
+          <h1 className="soluciones">Soluciones en </h1><h2 className="multiples">multiples áreas</h2>
           
         </SectionHeader>
         <FeatureWrapper>
