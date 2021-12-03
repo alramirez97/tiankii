@@ -8,7 +8,8 @@ import Image from 'common/components/Image';
 import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
 import SectionWrapper, { ContentWrapper } from './secure-transaction.style';
-import tiankii from '../../../common/assets/image/app-minimal/tiankii.png'
+import tiankii from '../../../common/assets/image/app-minimal/tiankii.png';
+import icono from '../../../common/assets/image/app-minimal/icono.png';
 
 const SecureTransaction = () => {
   const Data = useStaticQuery(graphql`
@@ -60,17 +61,20 @@ const SecureTransaction = () => {
             
           </div>
           <div className="content">
-            <p class="Polgono-1" > </p>
-            <a> <Heading  content={title} /></a>
-           
-            <Text content={description} />
-
-            <Heading  content={title} />
-            <Text content={description} />
-
-            <Heading  content={title} />
+          <div className="text1">
+          <Heading  content={title} />
             <Text content={description} />
           </div>
+          <div className="text1">
+          <Heading  content={title} />
+            <Text content={description} />
+          </div>
+          <div className="text1">
+          <Heading  content={title} />
+            <Text content={description} />
+          </div>
+          </div>
+          
         </ContentWrapper>
       </Container>
     </SectionWrapper>

@@ -3,87 +3,29 @@ import { themeGet } from '@styled-system/theme-get';
 import { rgba } from 'polished';
 
 const SectionWrapper = styled.section`
-.llaves {
-  width: 499px;
-  height: 99px;
-  margin: 0 53px 22px 0;
-  font-family: Exo;
-  font-size: 42px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.02;
-  letter-spacing: normal;
-  text-align: left;
-  color: #fff;
-}
-
-.bannerMoc {
-  width: 686px;
-  height: 686px;
-  margin: 0px 0px 0px 105px;
-  object-fit: contain;
-}
-
-.parrafo {
-  width: 552px;
-  height: 296px;
-  margin: 22px 0 31px;
-  font-family: Exo;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: left;
-  color: #fff;
-}
-
-.button {
-  width: 174px;
-  height: 53px;
-  margin: 31px 120px 0 0;
-  padding: 17px 32px 16px 25px;
-  border-radius: 10px;
-  background-color: #ff763c;
-  font-family: Exo;
-  font-size: 15px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #fff;
-}
-
 h2 {
 
+font-family: Exo;
+font-size: 80px;
+font-weight: 700;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.02;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+}
+p {
   font-family: Exo;
-  font-size: 80px;
-  font-weight: 700;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.02;
-  letter-spacing: normal;
-  text-align: left;
-  color: #fff;
+  color: #FFF;
+  font-size: 22px;
+  line-height: 1.92;
+  text-align: justify;
+  @media (max-width: 1600px) {
+    font-size: 19px;
   }
-  p {
-    font-family: Exo;
-    color: #FFF;
-    font-size: 22px;
-    line-height: 1.92;
-    text-align: justify;
-    @media (max-width: 1600px) {
-      font-size: 19px;
-    }
-  }
-  width: 1366px;
-  height: 675px;
-  margin: 1476.2px 0 0;
-  padding: 92px 734px 82px 80px;
+}
+  padding: 75px 0 180px;
   background-color: #6225ff;
   @media (max-width: 1600px) {
     padding-top: 0;
@@ -102,13 +44,14 @@ h2 {
       margin-left: 0;
     }
   }
+  
 `;
 
 export const ThumbWrapper = styled.div`
   img {
-    width: 495px;
-    height: 495px;
-    margin: 2px 30px 2px 30px;
+    width: 686px;
+  height: 686px;
+  margin: 0px 20px 0px 90px;
     object-fit: contain;
   }
   width: calc(100% - 510px);
@@ -154,7 +97,7 @@ export const TextWrapper = styled.div`
     margin-top: 40px;
     align-items: flex-start;
     .icon__wrapper span {
-      color: #FFF;
+      color: ${rgba('#09131F', 0.2)};
       font-size: 64px;
       line-height: 1em;
       font-family: 'Work Sans', sans-serif;
@@ -168,7 +111,7 @@ export const TextWrapper = styled.div`
       }
     }
     h3 {
-      color: #FFF;
+      color: ${themeGet('colors.headingColor', '#FFF')};
       font-size: 18px;
       line-height: 1.45;
       font-weight: 700;
@@ -178,7 +121,7 @@ export const TextWrapper = styled.div`
       }
     }
     p {
-      color: #FFF;
+      color: ${themeGet('colors.textColor', '#343D48')};
       font-size: 15px;
       line-height: 1.92;
       @media (max-width: 1600px) {
