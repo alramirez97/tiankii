@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import BannerBg from 'common/assets/image/app-minimal/banner-bg-1-1.png';
+// import BannerBg from 'common/assets/image/app-minimal/banner-bg-1-1.png';
+//background-image: url(${BannerBg});
 const BannerArea = styled.section`
   background-color: #1d0760;
   background-repeat: no-repeat;
@@ -23,14 +24,14 @@ const BannerArea = styled.section`
     display: flex;
   }
   h2 {
-    font-weight: 500;
+    font-weight: 1366px;
     font-size: 62px;
     line-height: 1.21;
     letter-spacing: -2px;
     color: #ffffff;
     margin-bottom: 20px;
     @media (max-width: 1600px) {
-      font-size: 40px;
+      font-size: 60px;
       max-width: 414px;
     }
     @media (max-width: 574px) {
@@ -94,7 +95,7 @@ const BannerArea = styled.section`
     line-height: 1;
     color: #ffffff;
     padding: 21px 29px;
-    background-color: #23374d;
+    background-color: #ff763c;
     transition: all 500ms ease;
     &:hover {
       background-color: #fff;
@@ -115,10 +116,10 @@ const BannerArea = styled.section`
   }
   .bannerMoc {
     position: absolute;
-    bottom: 145px;
-    right: 70px;
+    bottom: -150px;
+    right: 50px;
     @media (max-width: 1600px) {
-      max-width: 750px;
+      max-width: 762px;
       right: 43px;
     }
     @media (max-width: 1199px) {

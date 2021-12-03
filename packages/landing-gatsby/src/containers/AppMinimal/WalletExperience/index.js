@@ -12,6 +12,7 @@ import SectionWrapper, {
   ThumbWrapper,
   TextWrapper,
 } from './wallet-experience.style';
+import { Button } from 'react-aria-menubutton';
 
 const WalletExperience = () => {
   const Data = useStaticQuery(graphql`
@@ -56,11 +57,11 @@ const WalletExperience = () => {
       <Container>
         <TextWrapper>
           <SectionHeader className="section-header-two">
-            <Heading content={title} />
+            <Heading as="h1" content={title} />
             <Text content={description} />
+            <button className='Button'>SOLICITAR DEMO</button>
           </SectionHeader>
-
-          {features.map((item) => (
+          {/* {features.map((item) => (
             <FeatureBlock
               key={`wallet--key${item.id}`}
               iconPosition="left"
@@ -68,7 +69,7 @@ const WalletExperience = () => {
               title={<Heading as="h3" content={item.title} />}
               description={<Text content={item.description} />}
             />
-          ))}
+          ))} */}
         </TextWrapper>
         <ThumbWrapper>
           <GatsbyImage
@@ -79,14 +80,14 @@ const WalletExperience = () => {
             }
             alt="Wallet Thumbnail"
           />
-          {image.bubble.map(({ image }, index) => (
+          {/* {image.bubble.map(({ image }, index) => (
             <Image
               src={image.publicURL}
               key={`image-bubble-key-${index}`}
               className={`bubble-image-${index + 1}`}
               alt="Wallet Thumbnail"
             />
-          ))}
+          ))} */}
         </ThumbWrapper>
       </Container>
     </SectionWrapper>

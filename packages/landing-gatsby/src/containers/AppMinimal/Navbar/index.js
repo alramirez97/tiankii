@@ -12,8 +12,8 @@ import { DrawerContext } from 'common/contexts/DrawerContext';
 
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
-import LogoImage from 'common/assets/image/app-minimal/header-logo.svg';
-import LogoImageStick from 'common/assets/image/app-minimal/header-logo-stick.svg';
+import LogoImage from 'common/assets/image/app-minimal/logotiankii.png';
+import LogoImageStick from 'common/assets/image/app-minimal/logotipo-tiankii-n.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -108,7 +108,7 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['126px', '126px'],
+    maxWidth: ['156px', '156px'],
   },
   button: {
     type: 'button',

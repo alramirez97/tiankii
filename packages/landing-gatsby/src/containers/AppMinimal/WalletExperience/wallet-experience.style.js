@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.section`
+  background-image: linear-gradient(to top, #6225ff -5%, #521fd5 24%, #1d0760 95%);
   padding: 150px 0;
   overflow: hidden;
   @media (max-width: 1600px) {
@@ -109,13 +110,78 @@ export const TextWrapper = styled.div`
     width: 100%;
   }
   .section-header-two {
+    
     @media (max-width: 768px) {
       margin-left: 0;
     }
+    h1 {
+      width: 459px;
+      height: 56px;
+      margin: 37.6px 0 23px;
+      font-family: Exo;
+      font-size: 42px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.02;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+    }
     p {
       padding-right: 50px;
+      width: 449px;
+      height: 296px;
+      margin: 23px 10px 0 0;
+      font-family: Exo;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
     }
   }
+  .Button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+    color: #ffffff;
+    padding: 21px 29px;
+    background-color: #ff763c;
+    transition: all 500ms ease;
+    &:hover {
+      background-color: #fff;
+      color: #23374d;
+    }
+    i {
+      margin-left: 10px;
+      position: relative;
+      top: 1px;
+    }
+    @media (max-width: 1600px) {
+      font-size: 14px;
+      padding: 16px 23px;
+    }
+    @media (max-width: 575px) {
+      width: 100%;
+    }
+  }
+
+  .logo {
+    width: 700px;
+    height: 1000px;
+    
+    object-fit: contain;
+  }
+
   .feature__block {
     margin-top: 50px;
     align-items: center;
