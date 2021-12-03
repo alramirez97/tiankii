@@ -2,7 +2,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: Exo;
   }
 
   h1,
@@ -11,11 +11,11 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: Exo;
     margin-top: 0;
   }
   p{
-    font-family: 'DM Sans', sans-serif;
+    font-family: Exo;
   }
 
   section {

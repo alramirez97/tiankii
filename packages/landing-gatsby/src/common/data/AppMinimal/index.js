@@ -278,32 +278,31 @@ export const WalletDashboardData = {
 // Track data section
 /* ------------------------------------ */
 
-import trackImage1 from 'common/src/assets/image/app-minimal/graph-1-1.png';
-import trackImage2 from 'common/src/assets/image/app-minimal/graph-1-2.png';
+import chooseThumb from '../../../common/assets/image/app-minimal/seguro-nubee.png';
 
 export const TrackData = {
-  title:
-    'The Most Effective wallet app to track your ultimate daily transaction',
-  paragraph: [
+  title: 'Why you choose Wallet app for your daily use?',
+  description:
+    'Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.',
+  thumbnail: chooseThumb,
+  features: [
     {
-      text:
-        'Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. There will be a day–in our lifetime–when we get to celebrate every person on the planet having access. Moment Pro is the best software platform to collect reviews.',
+      id: 1,
+      title: 'Easy to use application',
+      description:
+        'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
     {
-      text:
-        'There will be a day–in our lifetime–when we get to celebrate every person on the planet having access. Moment Pro is the best software platform to collect reviews. Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.',
-    },
-  ],
-  trackBox: [
-    {
-      image: trackImage1,
-      count: '38',
-      text: 'Avarage Convension Rate',
+      id: 2,
+      title: 'Transfer to touch share',
+      description:
+        'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
     {
-      image: trackImage2,
-      count: '53',
-      text: 'Avarage Growth Rate',
+      id: 3,
+      title: '100% Reliable with Privacy',
+      description:
+        'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
   ],
 };

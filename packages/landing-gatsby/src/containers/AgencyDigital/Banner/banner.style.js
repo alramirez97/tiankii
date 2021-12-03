@@ -54,7 +54,7 @@ export const BannerContent = styled.div`
     padding-bottom: 60px;
   }
   h1 {
-    font-family: Arvo;
+    font-family: Exo;
     font-size: 48px;
     line-height: 70px;
     font-weight: 700;
@@ -137,7 +137,7 @@ export const Subscribe = styled.div`
       margin-right: 0px;
     }
     input {
-      font-family: DM Sans;
+      font-family: Exo;
       font-size: 16px;
       min-height: 60px;
       padding: 0 24px;

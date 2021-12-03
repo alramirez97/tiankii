@@ -25,6 +25,7 @@ const BannerArea = styled.section`
   }
   h2 {
     font-weight: 1366px;
+    font-family: Exo;
     font-size: 62px;
     line-height: 1.21;
     letter-spacing: -2px;
@@ -42,6 +43,7 @@ const BannerArea = styled.section`
   }
   p {
     font-weight: normal;
+    font-family: Exo;
     font-size: 18px;
     line-height: 2.11;
     letter-spacing: -0.3px;
