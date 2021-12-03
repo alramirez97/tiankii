@@ -5,12 +5,19 @@ const SectionWrapper = styled.div`
 
 .imageTiankii{
   width: 409.7px;
-  height: 78px;
+  height: 80px;
   margin: 0 81.3px 1.7px 98px;
   object-fit: contain;
   display:block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.sistemasin-fondo {
+  width: 777px;
+  height: 777px;
+  margin: 0 498px 0 0;
+  object-fit: contain;
 }
 
 .pasarela{
@@ -44,6 +51,44 @@ const SectionWrapper = styled.div`
     display: block;
         margin-left: auto;
         margin-right: auto;
+}
+.Panel-Administrativo {
+  width: 196px;
+  height: 27px;
+  margin: 0 354px 15.3px 13px;
+  font-family: Exo;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #230764;
+}
+
+.Nuestro-panel-administrativo{
+  width: 577.5px;
+  height: 123px;
+  margin: 15.3px 0 0;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d0760;
+}
+
+.Rectngulo-547 {
+  width: 622px;
+  height: 206px;
+  margin: 0 0 20px;
+  padding: 27.7px 21px 13px 23.5px;
+  border-radius: 20px;
+  background-color: #fff;
 }
 
   padding-bottom: 0px;
