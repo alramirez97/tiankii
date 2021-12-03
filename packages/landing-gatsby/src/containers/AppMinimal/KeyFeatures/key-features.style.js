@@ -21,7 +21,7 @@ export const FeatureWrapper = styled.div`
   }
 
   > div {
-    width: calc(100% / 4 - 27px);
+    width: calc(100% / 3 - 27px);
     margin: 15px 0 30px;
     @media only screen and (max-width: 991px) {
       width: calc(100% / 2 - 15px);

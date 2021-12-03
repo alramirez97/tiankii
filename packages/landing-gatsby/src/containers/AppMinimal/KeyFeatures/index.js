@@ -35,8 +35,8 @@ const KeyFeatures = () => {
     <SectionWrapper id="feature_section">
       <Container>
         <SectionHeader>
-          <Heading content={title} />
-          <Text content={description} />
+          {/* <--! Heading content={title} / --> */}
+          
         </SectionHeader>
         <FeatureWrapper>
           {features.map((item) => (

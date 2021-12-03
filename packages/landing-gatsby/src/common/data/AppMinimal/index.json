@@ -42,7 +42,7 @@
     }
   },
   "keyFeatures": {
-    "title": "Business start with great features",
+    "title": "Soluciones en",
     "description": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.",
     "features": [
       {
@@ -65,6 +65,12 @@
       },
       {
         "id": 4,
+        "icon": "../../assets/image/app-minimal/key-feature/key-feature-4.svg",
+        "title": "Use Accessibility",
+        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+      },
+      {
+        "id": 5,
         "icon": "../../assets/image/app-minimal/key-feature/key-feature-4.svg",
         "title": "Use Accessibility",
         "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
