@@ -41,31 +41,17 @@ const Footer = () => {
     <FooterArea>
       <Container className="Container">
         <Left>
-          <Logo
-            className="logo"
-            href="/appminimal"
-            logoSrc={logo.publicURL}
-            title="App Classic"
-          />
-          <CopyText>
-            Copyright © {year}
-            <Link to="/">RedQ, Inc.</Link>
-          </CopyText>
+          
+          
         </Left>
         <Menu>
-          {menu.map(({ link, label }, index) => (
-            <Link to={link} key={`footer-link-key-${index}`}>
-              {label}
-            </Link>
-          ))}
+        <CopyText>
+            Copyright © {year}
+            <Link to="/"> Norttech Labs Ltda - All rights reserved</Link>
+          </CopyText>
         </Menu>
         <Social>
-          <SocialText>Social:</SocialText>
-          {social.map(({ link, icon }, index) => (
-            <Link to={link} key={`footer-social-key-${index}`}>
-              <Image src={icon.publicURL} alt="social image" />
-            </Link>
-          ))}
+          
         </Social>
       </Container>
     </FooterArea>

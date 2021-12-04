@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const CounterArea = styled.section`
+background-color: #eeedf2;
   text-align: center;
   padding-top: 100px;
   .Container {
