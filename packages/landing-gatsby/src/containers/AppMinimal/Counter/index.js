@@ -6,7 +6,11 @@ import Box from 'common/components/Box';
 import Heading from 'common/components/Heading';
 import Text from 'common/components/Text';
 import Container from 'common/components/UI/Container';
-import CounterArea, { Row, Col } from './counter.style';
+import CounterArea, { Row, Col, ThumbWrapper, TextWrapper } from './counter.style';
+import maquina from '../../../common/assets/image/app-minimal/maquinita.png'
+import tianki from '../../../common/assets/image/app-minimal/tiankipay.png'
+import tp from '../../../common/assets/image/app-minimal/tiankp.png'
+import consult from '../../../common/assets/image/app-minimal/tiankiiconsult.png'
 
 const Counter = () => {
   const Data = useStaticQuery(graphql`
@@ -33,28 +37,50 @@ const Counter = () => {
   const { title, tagline } = blockTitle;
   return (
     <CounterArea>
-      <Container className="Container">
-        
-        <Box className="topTitle">
-        <h1 className="somos">Somos líderes en</h1>
+      <Container>
+      <TextWrapper>
+          
+          <h1 className="somos">Somos líderes en</h1>
         <h1 className="servicios">servicios de bitcoin</h1>
         <span class="Conozca">Conozca nuestros paquetes y servicios y seleccione el paquete que más se ajuste a las necesidades de tu empresa.</span>
-        </Box>
-        <Row>
-          {countBox.map(({ number, text, button }, index) => (
-            <Col key={`counter-key-${index}`}>
-              <Box className="CounterBox">
+        
 
+        </TextWrapper>
+        {/* <Box className="topTitle">
+        </Box> */}
+        <ThumbWrapper>
+          <img className="imagenMaq" src={maquina} />
+        </ThumbWrapper>
+        <Row>
+          
+            
+              
+              <div className="text1">
+              <img className="imageP1" src={tianki} />
                 <span class="Privacidad-y-seguridad">Privacidad y seguridad es lo primero: Cree wallets non-custodial directamente en el blockchain de bitcoin  sin intermediario- en su propio Nodo Bitcoin para almacenar sus bitcoins en hardware wallet, cold o hot wallets.
-                <span class="text-style-1">Pasarela de pagos en Tiankii.
-                                          Nodo Lightning y Bitcoin en Tiankii.
-                                          Sus Wallets non-custodial fuera de Tiankii.</span>
+                <p class="etiquetas">Pasarela de pagos en Tiankii.<br/>
+                                          Nodo Lightning y Bitcoin en Tiankii.<br/>
+                                          Sus Wallets non-custodial fuera de Tiankii.</p>
                 </span>
-                
-                
-              </Box>
-            </Col>
-          ))}
+                </div> 
+                <div className="text1">
+                <img className="imageP2" src={tp} />
+                <span class="Privacidad-y-seguridad">Privacidad y seguridad es lo primero: Cree wallets non-custodial directamente en el blockchain de bitcoin  sin intermediario- en su propio Nodo Bitcoin para almacenar sus bitcoins en hardware wallet, cold o hot wallets.
+                <p class="etiquetas">Pasarela de pagos en Tiankii. <br/>
+                                          Nodo Lightning y Bitcoin en Tiankii.<br/>
+                                          Sus Wallets non-custodial fuera de Tiankii.</p>
+                </span>
+                </div>
+                <div className="text1">
+                <img className="imageP2" src={consult} />
+                <span class="Privacidad-y-seguridad">Privacidad y seguridad es lo primero: Cree wallets non-custodial directamente en el blockchain de bitcoin  sin intermediario- en su propio Nodo Bitcoin para almacenar sus bitcoins en hardware wallet, cold o hot wallets.
+                </span>
+                </div>
+              
+            
+         
+
+        
         </Row>
       </Container>
     </CounterArea>
