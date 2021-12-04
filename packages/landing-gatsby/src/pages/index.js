@@ -56,10 +56,8 @@ const AppMinimal = () => {
             <Track />
           </ContentWrapper>
           <GradientWrapper>
-            <Gallery />
+            
             <Counter />
-            <Pricing />
-            <Blog />
             <CallToAction />
             <Footer />
           </GradientWrapper>

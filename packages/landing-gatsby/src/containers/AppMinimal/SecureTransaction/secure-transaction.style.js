@@ -176,7 +176,7 @@ export const ContentWrapper = styled.div`
   line-height: 1.56;
   letter-spacing: normal;
   text-align: left;
-  color: #1d0760;
+  color: #230764;
 
   background-color: #FFF;
     @media (max-width: 1600px) {
@@ -236,6 +236,7 @@ export const ContentWrapper = styled.div`
     width: 465px;
     margin: 0 0 0 0;
   padding: 0 0 0 0;
+  color: #230764;
 
   background-color: #eeedf2;
     @media (max-width: 1600px) {
@@ -253,7 +254,7 @@ export const ContentWrapper = styled.div`
       border-radius: 20px;
     }
     h2 {
-      color: ${themeGet('colors.headingColor', '#09131F')};
+      color: #230764;;
       font-size: 40px;
       line-height: 1.35;
       margin-bottom: 20px;
@@ -271,7 +272,7 @@ export const ContentWrapper = styled.div`
       font-weight: normal;
       line-height: 2;
       margin-bottom: 35px;
-      color: ${themeGet('colors.textColor', '#343D48')};
+      color: #1d0760;
       @media only screen and (max-width: 1600px) {
         margin-bottom: 30px;
       }

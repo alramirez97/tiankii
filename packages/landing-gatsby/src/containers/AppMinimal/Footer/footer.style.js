@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const FooterArea = styled.footer`
+background-color: #9b8eff;
   .container {
     display: flex;
     align-items: center;
