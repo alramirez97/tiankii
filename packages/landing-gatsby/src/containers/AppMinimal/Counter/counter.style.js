@@ -20,6 +20,10 @@ background-color: #eeedf2;
   text-align: left;
   color: #1d0760;
     }
+    img.untitled {
+     
+      object-fit: contain;
+    }
 
     .servicios{
       width: 370.8px;
