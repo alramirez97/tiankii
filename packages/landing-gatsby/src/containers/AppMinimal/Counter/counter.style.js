@@ -21,7 +21,9 @@ background-color: #eeedf2;
   color: #1d0760;
     }
     img.untitled {
-     
+      width: 732px;
+      height: 732px;
+      margin: 595px 12px 367px 95px;
       object-fit: contain;
     }
 
