@@ -4,77 +4,74 @@ const CounterArea = styled.section`
 background-color: #eeedf2;
   text-align: center;
   padding-top: 100px;
+
   .Container {
-    max-width: 1000px;
-  }
-  .topTitle {
-    margin-bottom: 85px;
-    @media (max-width: 575px) {
-      margin-bottom: 20px;
+  max-width: 1000px;
+
+  .somos{
+  width: 335px;
+  height: 50px;
+  font-family: Exo;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d0760;
     }
-    h2 {
+
+    .servicios{
+      width: 370.8px;
+      font-family: Exo;
+      font-size: 42px;
       font-weight: bold;
-      font-size: 50px;
-      line-height: 1.3;
-      text-align: center;
-      letter-spacing: -0.02em;
-      color: #0f2137;
-      width: 100%;
-      max-width: 690px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 15px;
-      @media (max-width: 1600px) {
-        font-size: 40px;
-        max-width: 546px;
-      }
-      @media (max-width: 575px) {
-        font-size: 22px;
-        max-width: 100%;
-      }
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.02;;
+      text-align: left;
+      background: linear-gradient(89deg, #6225ff 0%, #ff763c 100%);
+      -webkit-background-clip: text;
+      color: transparent; 
     }
-    p {
-      font-weight: normal;
-      font-size: 17px;
-      line-height: 2.06;
-      letter-spacing: 0.1px;
-      color: #0f2137;
-      max-width: 750px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 0;
-      @media (max-width: 1600px) {
-        font-size: 15px;
-      }
+    .Conozca{
+      width: 486px;
+      height: 71px;
+      margin: 29.7px 57px 30px 23px;
+      font-family: Exo;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d0760;
     }
   }
+ 
   .CounterBox {
-    h3 {
-      font-weight: normal;
-      font-size: 60px;
-      line-height: 1;
-      text-align: center;
-      letter-spacing: -0.02em;
-      color: #1089ff;
-      margin-bottom: 0;
-      &::before {
-        content: '+';
-        font-size: 40px;
-        display: inline-block;
-        vertical-align: top;
-        position: relative;
-        top: -10px;
-        margin-right: 7px;
-      }
+    background-color: #fff;
     }
-    p {
-      font-weight: normal;
-      font-size: 17px;
-      text-align: center;
-      color: #09131f;
-      margin-top: 15px;
-      margin-bottom: 10px;
+    .Privacidad-y-seguridad{
+      width: 465.9px;
+      height: 222px;
+      margin: 19.2px 0 0 0.5px;
+      font-family: Exo;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d0760;
     }
+    
+    .Privacidad-y-seguridad.text-style-1 {
+      color: #a7a7a7;
+    }
+  
   }
   .counterLink {
     font-weight: bold;
