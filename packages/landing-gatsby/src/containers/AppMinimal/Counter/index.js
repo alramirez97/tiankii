@@ -45,7 +45,6 @@ const Counter = () => {
             <Col key={`counter-key-${index}`}>
               <Box className="CounterBox">
 
-                
                 <span class="Privacidad-y-seguridad">Privacidad y seguridad es lo primero: Cree wallets non-custodial directamente en el blockchain de bitcoin  sin intermediario- en su propio Nodo Bitcoin para almacenar sus bitcoins en hardware wallet, cold o hot wallets.
                 <span class="text-style-1">Pasarela de pagos en Tiankii.
                                           Nodo Lightning y Bitcoin en Tiankii.
