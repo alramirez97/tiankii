@@ -199,6 +199,48 @@ export const Menu = styled.div`
       margin-left: 35px;
     }
   }
+  .acercade {
+    width: 170px;
+    height: 27px;
+    margin: -50px 274.5px 15.3px 0px;
+    font-family: Exo;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b8eff;
+  }
+  .texto {
+    width: 300px;
+    height: 211px;
+    margin: 11.3px 123.5px 22px 0px;
+    font-family: Exo;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .link {
+    color: #00c5b7;
+    width: 300px;
+    height: 211px;
+    margin: 11.3px 123.5px 22px 0px;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+  }
 `;
 export const CopyText = styled.p`
   margin: 0;
@@ -209,6 +251,78 @@ export const Social = styled.div`
   align-items: center;
   a {
     margin-left: 15px;
+  }
+  .support {
+    width: 171px;
+    height: 27px;
+    margin: -60px 158px 11.3px 0;
+    font-family: Exo;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b8eff;
+  }
+  .product {
+    width: 84px;
+    height: 27px;
+    margin: 30.3px 245px 11.3px 0;
+    font-family: Exo;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b8eff;
+  }
+  .textoS {
+    width: 329px;
+    height: 120px;
+    margin: 11.3px 0 0;
+    font-family: Exo;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    font-weight: 500;
+    color: #fff;
+  }
+  .textoD {
+    width: 329px;
+    height: 120px;
+    margin: 11.3px 0 0;
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    font-weight: 500;
+    color: #00c5b7;
+  }
+  .textoP {
+    width: 329px;
+    height: 120px;
+    margin: 11.3px 0 0;
+    font-family: Exo;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00c5b7;
   }
 `;
 export const SocialText = styled.span`
