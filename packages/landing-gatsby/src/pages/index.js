@@ -54,9 +54,8 @@ const AppMinimal = () => {
             <Features />
             <WalletDashboard />
             <Track />
-          </ContentWrapper>
-          <GradientWrapper>
-            
+            </ContentWrapper>
+            <GradientWrapper>
             <Counter />
             <CallToAction />
             <Footer />

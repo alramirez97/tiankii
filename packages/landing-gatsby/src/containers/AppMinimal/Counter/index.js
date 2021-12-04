@@ -34,19 +34,24 @@ const Counter = () => {
   return (
     <CounterArea>
       <Container className="Container">
+        
         <Box className="topTitle">
-          <Heading as="h2" content={title} />
-          <Text as="p" content={tagline} />
+        <h1 className="somos">Somos líderes en</h1>
+        <h1 className="servicios">servicios de bitcoin</h1>
+        <span class="Conozca">Conozca nuestros paquetes y servicios y seleccione el paquete que más se ajuste a las necesidades de tu empresa.</span>
         </Box>
         <Row>
           {countBox.map(({ number, text, button }, index) => (
             <Col key={`counter-key-${index}`}>
               <Box className="CounterBox">
-                <Heading as="h3" content={`${number}%`} />
-                <Text as="p" content={text} />
-                <Link to={button.link} className="counterLink">
-                  {button.label} <Icon size={18} icon={androidArrowForward} />
-                </Link>
+
+                <span class="Privacidad-y-seguridad">Privacidad y seguridad es lo primero: Cree wallets non-custodial directamente en el blockchain de bitcoin  sin intermediario- en su propio Nodo Bitcoin para almacenar sus bitcoins en hardware wallet, cold o hot wallets.
+                <span class="text-style-1">Pasarela de pagos en Tiankii.
+                                          Nodo Lightning y Bitcoin en Tiankii.
+                                          Sus Wallets non-custodial fuera de Tiankii.</span>
+                </span>
+                
+                
               </Box>
             </Col>
           ))}
