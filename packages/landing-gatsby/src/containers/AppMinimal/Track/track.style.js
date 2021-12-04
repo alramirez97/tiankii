@@ -37,29 +37,47 @@ const SectionWrapper = styled.section`
       color: #fff;
       margin-top: -10px;
       margin-bottom: -10px;
+      margin-left: -100px;
+      @media (max-width: 1600px) {
+        font-size: 42px;
+      }
+      @media (max-width: 1024px) {
+        font-size: 42px;
+      }
+      @media (max-width: 736px) {
+        font-size: 28px;
+        text-align: left;
+        margin-left: -85px;
+      }
     }
   }
 `;
 
 export const ThumbWrapper = styled.div`
   width: calc(100% - 510px);
-  @media (max-width: 1600px) {
+  @media (max-width: 1024px) {
     width: calc(100% - 476px);
-    img {
-      max-width: 100%;
-    }
-  }
-  @media (max-width: 768px) {
+    margin-left: 10%;
     width: 100%;
     img {
-      max-width: 70%;
+      max-width: 100%;
+      
+    }
+  }
+  @media (max-width: 736px) {
+    width: 100%;
+    margin-right: 10%;
+    img {
+      max-width: 100%;
       margin-left: auto;
       margin-right: auto;
+      padding-left: 10%
     }
   }
   @media (max-width: 480px) {
     img {
       max-width: 100%;
+      
     }
   }
 
@@ -68,7 +86,7 @@ export const ThumbWrapper = styled.div`
     width: 600px;
     height: 671px;
     margin-bottom: 30px;
-    margin-left: -10px;
+    margin-left: -50px;
     margin-right: -10px;
     
   }
@@ -83,19 +101,30 @@ export const TextWrapper = styled.div`
     margin-left: 70px;
     margin-right: -50px;
   }
-  @media (max-width: 768px) {
-    width: 70%;
+  @media (max-width: 1024px) {
+    width: 500px;
     margin-left: auto;
-    margin-right: -10px;
-    margin-top: 70px;
+    margin-right: auto;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
   }
   @media (max-width: 480px) {
     width: 100%;
+    
   }
   .feature__block {
     margin-top: 40px;
-    margin-right: 40px;
-    
+    margin-right: 80px;
+    margin-left: -100px;
+    @media (max-width: 414px) {
+      max-width: 100%
+    }
     align-items: flex-start;
     .icon__wrapper span {
       color: ${rgba('#09131F', 0.2)};
@@ -124,7 +153,12 @@ export const TextWrapper = styled.div`
       letter-spacing: normal;
       text-align: left;
       color: #9b8eff;
-      @media (max-width: 1600px) {
+     
+      @media (max-width: 1024px) {
+        font-size: 22px;
+        text-align: left;
+      }
+      @media (max-width: 736px) {
         font-size: 16px;
       }
     }
@@ -142,6 +176,21 @@ export const TextWrapper = styled.div`
       text-align: left;
       color: #fff;
       
+      @media (max-width: 1024px) {
+        font-size: 20px;
+      }
+      @media (max-width: 736px) {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 100px;
+      }
+      @media (max-width: 414px) {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 100px;
+      }
     }
     p {
       color: ${themeGet('colors.textColor', '#343D48')};
@@ -151,6 +200,9 @@ export const TextWrapper = styled.div`
         font-size: 14px;
       }
     }
+  }
+  .logoG {
+    margin-left: -100px;
   }
 `;
 

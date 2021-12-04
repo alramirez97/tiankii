@@ -67,7 +67,7 @@ const Track = () => {
               description={<Text as="descripcion" content={item.description} />}
             />
           ))}
-        <img className='logoG' src={logoG} />
+          <img className='logoG' src={logoG} />
         </TextWrapper>
       </Container>
     </SectionWrapper>

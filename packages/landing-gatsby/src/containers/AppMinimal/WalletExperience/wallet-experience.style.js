@@ -8,6 +8,15 @@ const SectionWrapper = styled.section`
   @media (max-width: 1600px) {
     padding: 10px 0;
   }
+  @media (max-width: 1024px) {
+    padding: 8px 0;
+  }
+  @media (max-width: 736px) {
+    padding: 4px 0;
+  }
+  @media (max-width: 414px) {
+    padding: -100px 0px;
+  }
   > div.container {
     display: flex;
     align-items: center;
@@ -25,10 +34,16 @@ export const ThumbWrapper = styled.div`
   
   @media only screen and (max-width: 768px) {
     width: 70%;
-    margin-bottom: 100px;
+    margin-bottom: -80px;
+    margin-left: -350px;
+    img {
+
+    }
   }
-  @media only screen and (max-width: 480px) {
+  @media (max-width: 450px) {
     width: 100%;
+    margin-right: 60%;
+    
   }
   @keyframes bubbleLeftRight {
     0% {
@@ -114,7 +129,7 @@ export const TextWrapper = styled.div`
   @media only screen and (max-width: 1219px) {
     width: 640px;
   }
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 768px) {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -125,6 +140,9 @@ export const TextWrapper = styled.div`
   .section-header-two {
     
     @media (max-width: 768px) {
+      margin-left: 0;
+    }
+    @media (max-width: 450px) {
       margin-left: 0;
     }
     h1 {
@@ -140,6 +158,10 @@ export const TextWrapper = styled.div`
       letter-spacing: normal;
       text-align: left;
       color: #fff;
+      @media (max-width: 450px) {
+        margin-left: 0;
+        font-size: 35px;
+      }
     }
     p {
       width: 449px;
@@ -154,6 +176,9 @@ export const TextWrapper = styled.div`
       letter-spacing: normal;
       text-align: left;
       color: #fff;
+      @media (max-width: 414px) {
+        margin: 23px 10px -50px -15px;
+      }
     }
   }
   .Button {
